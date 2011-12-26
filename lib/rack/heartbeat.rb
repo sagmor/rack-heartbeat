@@ -36,3 +36,5 @@ module Rack
     end
   end
 end
+
+require 'rack/heartbeat/railtie' if defined?(Rails)
